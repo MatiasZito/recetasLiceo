@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/muro-cemento_1154-642.jpg);
+}
+/* 
+.logo {
+    width: 100px;
+    margin: 10px;
+}
+
+.navbar {
+    width: 80%;
+    margin:auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.navegacion {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.navegacion:hover {
+    font-size: 25px;
+}
+ */
+img {
+ width: 100px;
+ margin: 10px;
+}
+.logo1 {
+    border: thin solid black;
+    display: inline-block;
+    width: 9%;
+    height: 20px;
+}
+
+.nave {
+    border: thin solid black;
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+}
+
+.user {
+    border: thin solid black;
+    display: inline-block;
+    width: 9%;
+    height: 20px;
+}
