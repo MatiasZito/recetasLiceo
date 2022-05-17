@@ -71,3 +71,15 @@ img {
     width: 9%;
     height: 20px;
 }
+.tituloReceta{
+   text-align: center;
+}
+.descripcionReceta{
+    text-align: center;
+}
+.ingredientesReceta{
+    text-align:justify;
+}
+.ingredientesReceta2{
+    text-align:justify;
+}
