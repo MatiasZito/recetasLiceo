@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .principal {
     background-image: url("/img/chef.jpg");
     background-repeat: no-repeat;
@@ -12,7 +19,10 @@
     height: 100vh;
 }
 
+
 .navegacion {
+    position: sticky;
+    top: 0px;
     background: linear-gradient(to bottom, rgb(7, 73, 1), rgb(255, 255, 255,0));
     display: flex;
     justify-content: center;
@@ -66,7 +76,7 @@
 
 /* ---------------------------------------------------------- */
 
-.conteiner {
+.conti .tituloReceta {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,6 +86,15 @@
     text-align: center;
 }
 
+.conti .conteiner .tituloReceta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+} 
 
 .bloque .thumbnail {
     display: inline-block;
@@ -105,11 +124,6 @@
 
 /* ---------------------------------------------------- */
 
-body {
-    background-image: url(/img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 h1 {
     font-family: 'Satisfy', cursive;;
@@ -132,7 +146,7 @@ p {
 }
 
 .tituloDeReceta {
-    font-family: 'Satisfy', cursive;;
+    font-family: 'Satisfy', cursive;
     margin: 20px;
     margin-left: 3%;
 }
@@ -174,6 +188,128 @@ p {
 
 .autor {
     text-align: right;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+
+
+.flex-cont {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.flex-cont > div {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.picture img {
+    height: 374px;
+    width: 300px;   
+}
+
+picture {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding-top:  10px;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .flex-cont {
+        display: block;
+    }
+    .flex-cont > div {
+        width: auto;
+    }
+}
+    
+
+/* ------------------------------Footer----------------------------------------- */
+
+.contenidoFooter {
+    background: linear-gradient(to top, rgb(7, 73, 1), rgb(255, 255, 255,0));
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.linksUl{
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style:none;
+}
+.linksUl li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.linksUl li a:link{
+    text-decoration: none;
+    color: yellowgreen;
+}
+            <li>Azucar</li>
+            .linksUl li a:hover{
+    color: black; 
+    font-family: 'Satisfy', cursive;
+    transform: scale(1.2);    
+    color: yellowgreen;
+    text-decoration: none;
+}
+.linksUl li a:visited{
+    color: black; 
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+}
+
+.divNavegacion .linksUl li a:hover{
+    color: yellowgreen;
+}
+
+.contenidoFooter div {
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.copyright p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* ------------------------------Ingredientes----------------------------------------- */
+
+.ingredientes {
+    text-align: center;
     font-family: 'Satisfy', cursive;
     font-size: 25px;
 }
