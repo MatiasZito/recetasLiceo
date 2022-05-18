@@ -143,35 +143,44 @@ p {
     align-items: center;
 }
 
+
+
 .tituloDeReceta {
     font-family: 'Satisfy', cursive;
-    margin: 20px;
-    margin-left: 3%;
+    margin: 25px;
+    padding-left: 1%;
+    text-align: left;
 }
-
 
 .listaIngredientes ul li{
     margin-left: 6%;
     font-family: 'Patrick Hand', cursive;
-    font-size: 17px;
+    font-size: 18px;
 }
+
+.listaIngredientes ul ul li{
+    margin-left: 8%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
 .tituloDeRecetas-2{
     margin-left: 7%;
     font-family: 'Patrick Hand', cursive;
-    font-size: 17px;   
+    font-size: 18px;   
 }
 
 .ul {
     margin-left: 10%;
     font-family: 'Patrick Hand', cursive;
-    font-size: 17px;     
+    font-size: 18px;     
 }
 
 .listaReceta ol{
     background-position: 30px;
     margin-left: 6%;
     font-family: 'Patrick Hand', cursive;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .listaReceta ol ul{
@@ -189,8 +198,6 @@ p {
     font-family: 'Satisfy', cursive;
     font-size: 25px;
 }
-
-
 
 .flex-cont {
     display: -webkit-flex;
