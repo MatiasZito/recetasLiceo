@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Ensalada de Macarrones</title>
 </head>
 <body>
-    <header>
-        <a id="Ensalada" href="index.html">Ir al home</a>
-        <h1>Ensalada de Macarrones</h1>
+    <header class="fondo">
+        <nav class="navegacion">
+            <div class="logo">
+                <img src="/img/logoBlanco.png" alt="logo">
+            </div>
+            <div>
+                <ul class="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                    <li><a href="ingredientes.html">Ingredientes</a></li>
+                    <li><a href="cocineros.html">Cocineros</a></li>
+                </ul>
+            </div>
+         </nav>
     </header>
     <main>
-     <p>Es simple pero llena de sabor</p>
+        <div>
+        <h1>Ensalada de Macarrones</h1>
+        </div>
+    <div><p>Es simple pero llena de sabor</p>
+    </div>
+    <div class="imagenReceta">
      <img src="img/ensaladaMacarrones.jpg" alt="comida">
-        <h2>Ingredientes</h2>
+    </div>
+    <h2 class="tituloDeReceta">Lista de ingredientes</h2>
+    <div class="listaIngredientes">
         <ul>
             <li>1/2 libra de macarrones</li>
             <li>2 hojas de laurel</li>
@@ -24,7 +46,7 @@
             <li>1/4 de libra de jamon cortado en cuadritos</li>
             <li>Aceite de oliva o de girasol, cantidad suficiente para freír.</li>
             </ul>
-            <h3>Para rebozar, aderezamos con:</h3> 
+            <h3 class="tituloDeReceta">Para rebozar, aderezamos con:</h3> 
             <ul>   
                 <li> 2 cucharadas de jugo de limon verde</li>
                 <li> 1/2 cucharada de pimienta negra fresca molida</li>
@@ -32,7 +54,8 @@
                 <li> Mayonesa</li>
             </ul>
         </ul>
-        <h2>Preparacion</h2>
+        <h2 class="tituloDeReceta">Preparación</h2>
+        <div class="listaReceta">
         <ol>
             <li>Cocina el macarrón de acuerdo a las instrucciones del paquete. Agrega al agua las hojas de laurel, 2 cucharaditas de sal y el aceite de oliva. Escurre la pasta, coloca en una charola y deja enfriar.</li>
             <li>En un tazón mediano, mezcla el limón, la pimienta negra y ¾ de cucharadita de sal. Cuando la sal ya este disuelta agrega la crema y mezcla bien.</li>
@@ -41,10 +64,9 @@
             <li>Cubre el tazón con plástico, refrigera por una hora o toda la noche antes de servir.</li>
             
         </ol>
-        <p>Listo! ya podes disfrutar de tu preparación</p>
-        <h5>Autor: Karol Blandon</h5>
-        <a href="https://www.vvsupremo.com/recipe/ensalada-de-macarrones-estilo-maricela/" target="_blank" >Pagina Referencia</a><br>
-        <a href="ensaladaDeMacarrones.html#Ensalada">Subir ☝</a>
+        </div>
+        <p class="disfrutar">Listo! ya podes disfrutar de tu preparación</p>
+        <h5 class="autor">Autor: Karol Blandon</h5>
         
     </main>
 </body>
