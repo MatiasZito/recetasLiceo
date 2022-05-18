@@ -13,7 +13,6 @@ body {
 
 .principal {
     background-image: url("/img/chef.jpg");
-    
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -40,7 +39,6 @@ body {
 }
 
 .navegacion .logo img {
-    
     height: 70px;
     width: auto;
     transition: all 0.5s;
@@ -233,3 +231,63 @@ h3 {
     }
 }
     
+
+/* ------------------------------Footer----------------------------------------- */
+
+.contenidoFooter {
+    background: linear-gradient(to top, rgb(7, 73, 1), rgb(255, 255, 255,0));
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.linksUl{
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style:none;
+}
+.linksUl li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.linksUl li a:link{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.linksUl li a:hover{
+    color: black; 
+    font-family: 'Satisfy', cursive;
+    transform: scale(1.2);    
+    color: yellowgreen;
+    text-decoration: none;
+}
+.linksUl li a:visited{
+    color: black; 
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+}
+
+.divNavegacion .linksUl li a:hover{
+    color: yellowgreen;
+}
+
+.contenidoFooter div {
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.copyright p{
+    text-align: center;
+    font-size: 20px;
+}
+
