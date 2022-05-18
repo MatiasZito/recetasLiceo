@@ -164,8 +164,9 @@ p {
     font-size: 18px;
 }
 
-.tituloDeRecetas-2{
-    margin-left: 7%;
+.listaIngredientes .tituloDeRecetas-2{
+    text-align: left;
+    padding-left: 2%;
     font-family: 'Patrick Hand', cursive;
     font-size: 18px;   
 }
