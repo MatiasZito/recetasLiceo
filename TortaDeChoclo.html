@@ -5,45 +5,83 @@
     <meta charset=”utf-8”/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     <title>Receta de torta de choclo</title>
 </head>
 
 <body>
 
-    <header>
-        <a id="choclo" href="index.html">Ir al home</a>
-        <h1>Receta de Torta de choclo</h1>
+    <header class="fondo">
+        <nav class="navegacion">
+            <div class="logo">
+                <img src="/img/logoBlanco.png" alt="logo">
+            </div>
+            <div>
+                <ul class="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                    <li><a href="ingredientes.html">Ingredientes</a></li>
+                    <li><a href="cocineros.html">Cocineros</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <main> 
-        <p>Si bien no existe claridad sobre su origen, lo cierto es que este plato adorna las mesas de gran parte de los paises de Sudamerica. Este es preparado con una pasta horneada de granos tiernos de choclo y dependiendo del lugar donde se prepare, es dulce o salado, con relleno o sin relleno.</p>
-        <img src="/img/tartaChoco.jpg" width="300" height="225" alt="Arroz con leche">
-        <h2>Ingredientes</h2>
-    <ul>
-        <li>6 tazas de choclo molido</li>
-        <li>1 taza de leche</li>
-        <li>1/2 taza de azúcar</li>
-        <li>150 fr de mantequilla</li>
-        <li>1 huevo</li>
-        <li>100 ml de crema de Leche</li>
-        <li>2 cucharadas de miel</li>
-        <li>1 cucharada de fécula de maiz</li>
-        <li>1 cucharada de sencia de vainilla</li>
-        <li>1/2 taza de harina</li>
-        <li>1 cucharadita de polvo de hornear</li>
-        <li>2 tazas de queso (quesillo o mozzarella)</li>
-    </ul>
-    <h2>Preparación</h2>
-    <ol>
-        <li>Desgranar los choclos</li>
-        <li>Licúe los granos de choclo y la leche.</li>
-        <li>Incorporar en un bol este licuado con los demas ingredientes.</li>
-        <li>Remover todo bien  hasta conseguir una masa uniforme</li>
-        <li>Engrasar con la margarina y un poco de harina un molde apto para horno y vierta la masa.</li>
-        <li>Horneé a 170º durante una hora.</li>
-    </ol>
-    <p>Listo!</p>
-    <h5>Autor: Jean Carla Aponte</h5>
-    <a href="TortaDeChoclo.html#choclo">Subir ☝</a>
 
+    
+    <main> 
+
+        <div>
+            <h1>Torta de choclo</h1>
+        </div>
+
+        <div>
+            <p>Si bien no existe claridad sobre su origen, lo cierto es que este plato adorna las mesas de gran parte de los paises de Sudamerica. Este es preparado con una pasta horneada de granos tiernos de choclo y dependiendo del lugar donde se prepare, es dulce o salado, con relleno o sin relleno.</p>
+        </div>
+        
+        <div class="imagenReceta">
+            <img src="/img/tartaChoco.jpg" width="300" height="225" alt="Arroz con leche">
+        </div>
+
+        <h2 class="tituloDeReceta">Ingredientes</h2>
+
+        <div class="listaIngredientes">
+            <ul>
+                 <li>6 tazas de choclo molido</li>
+                 <li>1 taza de leche</li>
+                 <li>1/2 taza de azúcar</li>
+                 <li>150 fr de mantequilla</li>
+                 <li>1 huevo</li>
+                 <li>100 ml de crema de Leche</li>
+                 <li>2 cucharadas de miel</li>
+                 <li>1 cucharada de fécula de maiz</li>
+                 <li>1 cucharada de sencia de vainilla</li>
+                 <li>1/2 taza de harina</li>
+                 <li>1 cucharadita de polvo de hornear</li>
+                 <li>2 tazas de queso (quesillo o mozzarella)</li>
+            </ul>
+        </div>
+
+        <h2 class="tituloDeReceta">Preparación</h2>
+
+        <div class="listaReceta">
+            <ol>
+                 <li>Desgranar los choclos</li>
+                 <li>Licúe los granos de choclo y la leche.</li>
+                 <li>Incorporar en un bol este licuado con los demas ingredientes.</li>
+                 <li>Remover todo bien  hasta conseguir una masa uniforme</li>
+                 <li>Engrasar con la margarina y un poco de harina un molde apto para horno y vierta la masa.</li>
+                 <li>Horneé a 170º durante una hora.</li>
+            </ol>
+        </div>
+
+
+        <p class="disfrutar">Listo! ya podes disfrutar de tu preparación</p>
+
+        <h5 class="autor">Jean Carla Aponte</h5>
+    </main>
  </main>
 </body>
