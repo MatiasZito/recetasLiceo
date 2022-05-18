@@ -7,6 +7,68 @@
 body {
     background-image: url(/img/muro-cemento_1154-642.jpg);
 }
+
+body {
+    background-image: url("/img/chef.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navegacion {
+    background: linear-gradient(to bottom, rgb(7, 73, 1), rgb(255, 255, 255,0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.navegacion .logo {
+    cursor: pointer;
+    justify-content:flex-start;
+}
+
+.navegacion .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.5s;
+    justify-content:flex-start;
+}
+
+.navegacion .logo img:hover {
+    transform: scale(1.2);
+    justify-content:flex-start;
+}
+
+.navegacion .navLinks {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navegacion .navLinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navegacion .navLinks li:hover {
+    transform: scale(1.1);
+}
+
+.navegacion .navLinks a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion .navLinks li a:hover {
+    color: yellowgreen;
+}
+
+
+
+
 /* 
 .logo {
     width: 100px;
