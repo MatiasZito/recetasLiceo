@@ -148,7 +148,7 @@ p {
 }
 
 .tituloDeReceta {
-    font-family: 'Satisfy', cursive;;
+    font-family: 'Satisfy', cursive;
     margin: 20px;
     margin-left: 3%;
 }
@@ -193,10 +193,8 @@ p {
 }
 
 .flex-cont > div {
-
     padding: 20px;
     margin: 10px;
-
 }
 
 
@@ -213,6 +211,14 @@ picture {
 }
 
 h2 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding-top:  10px;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
     text-align: center;
     font-size: 30px;
 }
