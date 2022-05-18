@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .principal {
     background-image: url("/img/chef.jpg");
     background-repeat: no-repeat;
@@ -66,7 +72,7 @@
 
 /* ---------------------------------------------------------- */
 
-.conteiner {
+.conti .tituloReceta {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,6 +82,15 @@
     text-align: center;
 }
 
+.conti .conteiner .tituloReceta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+} 
 
 .bloque .thumbnail {
     display: inline-block;
@@ -105,11 +120,6 @@
 
 /* ---------------------------------------------------- */
 
-body {
-    background-image: url(/img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 h1 {
     font-family: 'Satisfy', cursive;;
@@ -165,3 +175,48 @@ p {
     font-family: 'Satisfy', cursive;
     font-size: 25px;
 }
+
+
+
+.flex-cont {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.flex-cont > div {
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.picture img {
+    height: 374px;
+    width: 300px;   
+}
+
+picture {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .flex-cont {
+        display: block;
+    }
+    .flex-cont > div {
+        width: auto;
+    }
+}
+    
