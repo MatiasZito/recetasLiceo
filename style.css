@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(/img/muro-cemento_1154-642.jpg);
-}
-
-body {
+.principal {
     background-image: url("/img/chef.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,17 +62,45 @@ body {
     color: yellowgreen;
 }
 
+/* ---------------------------------------------------------- */
 
------------------------------------------------------------------------------------------------------------------------
-.tituloReceta{
-   text-align: center;
-}
-.descripcionReceta{
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
     text-align: center;
 }
-.ingredientesReceta{
-    text-align:justify;
+
+
+.bloque .thumbnail {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 400px;
+    
 }
-.ingredientesReceta2{
-    text-align:justify;
+
+ .thumbnail .image img{
+    margin-bottom: -3px;
+    transition: all 0.5s;
 }
+
+.thumbnail .image img:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+
+
