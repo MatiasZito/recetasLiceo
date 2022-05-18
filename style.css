@@ -151,10 +151,22 @@ p {
     margin-left: 3%;
 }
 
+
 .listaIngredientes ul li{
     margin-left: 6%;
     font-family: 'Patrick Hand', cursive;
     font-size: 17px;
+}
+.tituloDeRecetas-2{
+    margin-left: 7%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;   
+}
+
+.ul {
+    margin-left: 10%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;     
 }
 
 .listaReceta ol{

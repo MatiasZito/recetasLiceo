@@ -4,68 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">   
+    <title>Saladitos de hojaldre</title>
 </head>
 <body>
-    <header>
-        <a id="saladitos" href="index.html">Ir al home</a>
-        <h1>Saladitos de hojaldre con relleno variado</h1>
+    <header class="fondo">
+        <nav class="navegacion">
+            <div class="logo">
+                <img src="/img/logoBlanco.png" alt="logo">
+            </div>
+            <div>
+                <ul class="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                    <li><a href="ingredientes.html">Ingredientes</a></li>
+                    <li><a href="cocineros.html">Cocineros</a></li>                
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-        <p>Esta receta es un aperitivo sencillo y vistoso que queda genial si se prepara casero, con l hojaldre crujiente y con rellenos para todos los gustos. En este caso, lo he preparado de <b>4 sabores:</b> sobrasada, paté, bacón y queso y atún con tomate y aceitunas.</p>
-        <img src="img/Saladitos de hojaldre con relleno variado.jpg">
-        <h2><b>Ingredientes</b> 36 saladitos, aperitivo para 6-8 personas</h2>
-           <li>1 lámina cuadrada de hojaldre fresco.</li>
-           <li>1 huevo.</li>
-           <h3>Saladitos de atún y tomate:</h3>               
-               <ul>
-                   <li>1 lata de atún en conserva.</li>
-                   <li>2 cucharadas soperas de tomate frito.</li>
-                   <li>6 aceitunas. Yo he utilizado verdes y rellenas de anchoa.</li>
-               </ul>
-            <h3>Saladitos de sobrasada:</h3>
-               <ul>
-                   <li>4 cucharadas soperas de sobrasada.</li>
-               </ul>
-            <h3>Saladitos de paté:</h3>
-               <ul>
-                   <li>4 cuacharadas soperas de paté. Yp he utilizado paté a la pimienta.</li>
-               </ul>
-            <h3>Saladitos de bacón y queso:</h3>
-               <ul>
-                   <li>1 loncha de queso tipo havarti, gouda o similar.</li>
-                   <li>3 cucharadas soperas de bacón en tiras finas.</li>
-               </ul>
-           <h4>Para espolvorear por encima:</h4>
-           <ul>
-               <li>Sésamo blanco</li>
-               <li>Sésamo negro</li>
-               <li>Semillas de lino</li>
-               <li>Orégano</li>
-           </ul>
+        <div>
+            <h1>Saladitos de hojaldre con relleno variado</h1>
+        </div>
+        <div>
+            <p>
+                Esta receta es un aperitivo sencillo y vistoso que queda genial si se prepara casero, con l hojaldre crujiente y con rellenos para todos los gustos. En este caso, lo he preparado de <b>4 sabores:</b> sobrasada, paté, bacón y queso y atún con tomate y aceitunas.</p>
+            </p>
+        </div>
+        <div class="imagenReceta">
+            <img src="/img/saladitos.jpg" alt="comida">
+        </div>
+        <h2 class="tituloDeReceta"><b>Ingredientes</b> 36 saladitos, aperitivo para 6-8 personas</h2>
+        <div class="listaIngredientes">
+            <ul>
+                <li>1 lámina cuadrada de hojaldre fresco.</li>
+                <li>1 huevo.</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h3 class="tituloDeRecetas-2">Saladitos de atún y tomate:</h3>               
+                <ul class="ul">
+                    <li>1 lata de atún en conserva.</li>
+                    <li>2 cucharadas soperas de tomate frito.</li>
+                    <li>6 aceitunas. Yo he utilizado verdes y rellenas de anchoa.</li>
+                </ul>
+                <h3 class="tituloDeRecetas-2">Saladitos de sobrasada:</h3>
+                <ul class="ul">
+                    <li>4 cucharadas soperas de sobrasada.</li>
+                </ul>
+                <h3 class="tituloDeRecetas-2">Saladitos de paté:</h3>
+                <ul class="ul">
+                    <li>4 cuacharadas soperas de paté. Yp he utilizado paté a la pimienta.</li>
+                </ul>
+                <h3 class="tituloDeRecetas-2">Saladitos de bacón y queso:</h3>
+                <ul class="ul">
+                    <li>1 loncha de queso tipo havarti, gouda o similar.</li>
+                    <li>3 cucharadas soperas de bacón en tiras finas.</li>
+                </ul>
+            </ul>
+        </div>
+        <div>
+            <h4 class="tituloDeReceta">Para espolvorear por encima:</h4>
+            <ul class="ul">
+                <li>Sésamo blanco</li>
+                <li>Sésamo negro</li>
+                <li>Semillas de lino</li>
+                <li>Orégano</li>
+            </ul>
+        </div>
         </ul>
-        <h2><b>Preparación:</b></h2>
-        <ul>
-            <li>Cómo hacer la receta de saladitos de hojaldre con relleno variado, un aperitivo sencillo y vistoso:.</li>
-            <ol>
-                <li>Mantén el hojaldre siempre en la nevera y sácalo solo cuando tengas el resto de ingredientes preparados.</li>
-                <li>Corta el bacon en tiras finas si es necesario y cocínalo un poco. Puedes hacerlo en una sartén a fuego medio durante 2 o 3 minutos, hasta que se dore, o bien en un recipiente en el microondas dándole 1 minuto y después tandas de 30 segundos hasta que esté listo, en mi caso con 2 minutos en total ha sido suficiente.</li>
-                <li>Pica finitas las aceitunas verdes</li>
-                <li>Pon en un pequeño bol el atún escurrido, desmígalo un poco con un tenedor y mézclalo con el tomate frito y las aceitunas</li>
-                <li>Precalienta el horno a 200ºC con calor arriba y abajo y ventilador</li>
-                <li>Ahora es el momento de sacar el hojaldre. Extiéndelo sobre papel de horno (a veces lo lleva incorporado) y córtalo en 4 tiras iguales.</li>
-                <li>Extiende en el centro de cada tira cada conjunto de ingredientes. En una la <b>sobrasada</b>, en otra la loncha de <b>queso</b> cortada en 3 tiras y por encima el <b>bacón</b>, en otra la mezcla de <b>atún, tomate y aceitunas</b> y por último el <b>paté</b>.</li>
-                <li>Casca el <b>huevo</b>, bátelo en un bol y con él pinta un lateral de cada tira de <b>hojaldre</b>. A continuación enrolla el hojaldre que no está pintado sobre los ingredientes del centro (apretando un poco para que queden compactos pero con cuidado de que no se salgan) y sigue enrollando hacia la zona con huevo. Procura que la abertura quede hacia abajo para que después no se abra en el horno.</li>
-                <li>Pinta por encima con huevo batido, procurando que no chorree por los lados si no que sea una fina capa</li>
-                <li>Espolvorea por encima las <b>semillas y el orégano</b> a tu gusto. Yo lo hago un poco al azar, en este caso he puesto el sésamo blanco sobre el hojaldre de sobrasada, el orégano sobre el de jamón y queso, el sésamo negro sobre el de atún y tomate y por último las semillas de lino sobre el de paté. Además así cuando se horneen y se coloquen en una bandeja es más fácil saber cuáles son del mismo tipo.</li>
-                <li>Corta los saladitos con un cuchillo, a mi me suelen quedar 9 saladitos en cada tira pero ese número puede cambiar según si los haces más grandes o más pequeños.</li>
-                <li>Colócalos con el papel en una bandeja apta para horno y hornéalos durante unos 20 minutos o hasta que estén dorados.</li>
-            </ol>
-        </ul>
-        <p><b>¡¡ASÍ DE BIEN QUEDAN LOS SALADITOS CASEROS!! <big>¡¡ A COMER !!</big></b></p>
+        <h2 class="tituloDeReceta"><b>Preparación:</b></h2>
+        <div class="listaReceta">
+            <ul>
+                <li class="tituloDeReceta">Cómo hacer la receta de saladitos de hojaldre con relleno variado, un aperitivo sencillo y vistoso:.</li>
+                <ol>
+                    <li>Mantén el hojaldre siempre en la nevera y sácalo solo cuando tengas el resto de ingredientes preparados.</li>
+                    <li>Corta el bacon en tiras finas si es necesario y cocínalo un poco. Puedes hacerlo en una sartén a fuego medio durante 2 o 3 minutos, hasta que se dore, o bien en un recipiente en el microondas dándole 1 minuto y después tandas de 30 segundos hasta que esté listo, en mi caso con 2 minutos en total ha sido suficiente.</li>
+                    <li>Pica finitas las aceitunas verdes</li>
+                    <li>Pon en un pequeño bol el atún escurrido, desmígalo un poco con un tenedor y mézclalo con el tomate frito y las aceitunas</li>
+                    <li>Precalienta el horno a 200ºC con calor arriba y abajo y ventilador</li>
+                    <li>Ahora es el momento de sacar el hojaldre. Extiéndelo sobre papel de horno (a veces lo lleva incorporado) y córtalo en 4 tiras iguales.</li>
+                    <li>Extiende en el centro de cada tira cada conjunto de ingredientes. En una la <b>sobrasada</b>, en otra la loncha de <b>queso</b> cortada en 3 tiras y por encima el <b>bacón</b>, en otra la mezcla de <b>atún, tomate y aceitunas</b> y por último el <b>paté</b>.</li>
+                    <li>Casca el <b>huevo</b>, bátelo en un bol y con él pinta un lateral de cada tira de <b>hojaldre</b>. A continuación enrolla el hojaldre que no está pintado sobre los ingredientes del centro (apretando un poco para que queden compactos pero con cuidado de que no se salgan) y sigue enrollando hacia la zona con huevo. Procura que la abertura quede hacia abajo para que después no se abra en el horno.</li>
+                    <li>Pinta por encima con huevo batido, procurando que no chorree por los lados si no que sea una fina capa</li>
+                    <li>Espolvorea por encima las <b>semillas y el orégano</b> a tu gusto. Yo lo hago un poco al azar, en este caso he puesto el sésamo blanco sobre el hojaldre de sobrasada, el orégano sobre el de jamón y queso, el sésamo negro sobre el de atún y tomate y por último las semillas de lino sobre el de paté. Además así cuando se horneen y se coloquen en una bandeja es más fácil saber cuáles son del mismo tipo.</li>
+                    <li>Corta los saladitos con un cuchillo, a mi me suelen quedar 9 saladitos en cada tira pero ese número puede cambiar según si los haces más grandes o más pequeños.</li>
+                    <li>Colócalos con el papel en una bandeja apta para horno y hornéalos durante unos 20 minutos o hasta que estén dorados.</li>
+                </ol>
+            </ul>
+        </div>
+        <p class="disfrutar"><b>¡¡ASÍ DE BIEN QUEDAN LOS SALADITOS CASEROS!! <big>¡¡ A COMER !!</big></b></p>
         
-        <h5>Autor: Amaia López</h5>
-        <a href="saladitosHojaldre.html#saladitos">Subir ☝</a>    
+        <h5 class="autor">Autor: Amaia López</h5>
+        
     </main>
 </body>
 </html>
