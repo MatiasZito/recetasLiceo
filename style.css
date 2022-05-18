@@ -261,7 +261,8 @@ h3 {
     text-decoration: none;
     color: yellowgreen;
 }
-.linksUl li a:hover{
+            <li>Azucar</li>
+            .linksUl li a:hover{
     color: black; 
     font-family: 'Satisfy', cursive;
     transform: scale(1.2);    
@@ -291,3 +292,12 @@ h3 {
     font-size: 20px;
 }
 
+
+
+/* ------------------------------Ingredientes----------------------------------------- */
+
+.ingredientes {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
