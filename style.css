@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
+/* -------------fondo del body---------------- */
 body {
     background-image: url(/img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* -------------fondo index---------------- */
 .principal {
     background-image: url("/img/chef.jpg");
     background-repeat: no-repeat;
@@ -18,6 +19,7 @@ body {
     height: 100vh;
 }
 
+/* -------------barra de navegación---------------- */
 .navegacion {
     position: sticky;
     top: 0px;
@@ -72,50 +74,6 @@ body {
     color: yellowgreen;
 }
 
-/* ---------------------------------------------------------- */
-
-/* .conti .tituloReceta {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
-.conti .conteiner .tituloReceta{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 10px;
-    text-align: center;
-} 
-
-.bloque .thumbnail {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    width: 400px;
-    
-}
-
- .flex-cont .image img{
-    margin-bottom: -3px;
-    transition: all 0.5s;
-}
-
-.flex-cont .image img:hover{
-    opacity: 0.7;
-} */
-
-
-
-
-/* ---------------------------------------------------- */
-
 
 h1 {
     font-family: 'Satisfy', cursive;;
@@ -124,6 +82,8 @@ h1 {
     margin: 15px;
 }
 
+/* -------------Página de las recetas---------------- */
+/* -------------párrafo de imagenes---------------- */
 p {
     font-family: 'Patrick Hand', cursive;
     font-size: 25px;
@@ -131,6 +91,7 @@ p {
     margin: 20px;
 }
 
+/* -------------Imágenes---------------- */
 .imagenReceta {
     display: flex;
     justify-content: center;
@@ -143,9 +104,7 @@ p {
     transform: scale(1.1);
 }
 
-
-
-
+/* -------------Titulo---------------- */
 .tituloDeReceta {
     font-family: 'Satisfy', cursive;
     margin: 25px;
@@ -153,6 +112,7 @@ p {
     text-align: left;
 }
 
+/* -------------Formato a las listas---------------- */
 .listaIngredientes ul li{
     margin-left: 6%;
     font-family: 'Patrick Hand', cursive;
@@ -201,6 +161,8 @@ p {
     font-size: 25px;
 }
 
+/* ------------------------------imágenes del index----------------------------------------- */
+
 .flex-cont {
     display: -webkit-flex;
     display: flex;
@@ -214,12 +176,10 @@ p {
     margin: 10px;
 }
 
-
 .picture img {
     height: 374px;
     width: 300px;   
 }
-
 
 picture {
     display: -webkit-flex;
@@ -233,14 +193,14 @@ picture {
     transition: all 0.5s;
 }
 
-.flex-cont .picture img:hover{
+ .flex-cont .picture img:hover{
     transform:scale(1.3);
     -webkit-transform: rotateY(180deg);
     -webkit-transform-style: preserve-3d;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
     
-}
+} 
 
 /* --------Otro transicion de imagen-------- */
 /* .flex-cont .picture img:hover{
@@ -252,6 +212,7 @@ picture {
     -webkit-transform: rotate(360deg);
 } */
 
+/* --------titulo Recetas-------- */
 h2 {
     font-family: 'Satisfy', cursive;
     text-align: center;
@@ -259,12 +220,12 @@ h2 {
     padding-top:  10px;
 }
 
+/* --------titulo del pie de imagen-------- */
 h3 {
     font-family: 'Satisfy', cursive;
     text-align: center;
     font-size: 30px;
 }
-
 
 @media screen and (max-width: 720px) {
     .flex-cont {
@@ -275,8 +236,7 @@ h3 {
     }
 }
     
-
-/* ------------------------------Footer----------------------------------------- */
+/* ------------------Footer Index, y todas las recetas------------------------- */
 
 .contenidoFooter {
     background: linear-gradient(to top, rgb(7, 73, 1), rgb(255, 255, 255,0));
@@ -304,7 +264,6 @@ h3 {
 
 .linksUl li a:link{
     text-decoration: none;
-    
 }
 
 .linksUl li a:hover{
@@ -337,8 +296,6 @@ h3 {
     font-size: 20px;
 }
 
-
-
 /* ------------------------------Ingredientes----------------------------------------- */
 
 .ingredientes {
@@ -355,7 +312,7 @@ h3 {
     font-size: 25px;
 }
 
-/* ------------------------------Footer paginas cocineros, ingredientes Index----------------------------------------- */
+/* ------------------Footer paginas cocineros e ingredientes------------------------ */
 
 .footerPag {
     background: linear-gradient(to top, rgb(7, 73, 1), rgb(255, 255, 255,0));
